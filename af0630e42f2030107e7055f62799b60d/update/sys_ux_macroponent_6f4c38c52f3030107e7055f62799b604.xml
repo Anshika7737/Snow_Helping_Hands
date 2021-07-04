@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[ {
+  "elementId" : "container_1",
+  "elementLabel" : "Container 1",
+  "propertyValues" : { },
+  "eventMappings" : [ ],
+  "slot" : "Main",
+  "definition" : {
+    "id" : "d356d14b6e293a3020a244b63d278d8f",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "image_2",
+      "elementLabel" : "Image 2",
+      "propertyValues" : {
+        "alt" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "src" : {
+          "type" : "JSON_LITERAL",
+          "value" : "HHlogo.png"
+        },
+        "fit" : {
+          "type" : "JSON_LITERAL",
+          "value" : "none"
+        },
+        "position" : {
+          "type" : "JSON_LITERAL",
+          "value" : "center center"
+        },
+        "height" : {
+          "type" : "JSON_LITERAL",
+          "value" : "120"
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : "Sidebar 1",
+      "definition" : {
+        "id" : "15fe506403f8a98575b6df59008ea8f1",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isNonDestructive" : false,
+      "styles" : {
+        "margin-left" : "100px"
+      }
+    }, {
+      "elementId" : "heading_2",
+      "elementLabel" : "Heading 2",
+      "propertyValues" : {
+        "label" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "message" : "HELPING HANDS",
+            "comment" : ""
+          }
+        },
+        "level" : {
+          "type" : "JSON_LITERAL",
+          "value" : "1"
+        },
+        "variant" : {
+          "type" : "JSON_LITERAL",
+          "value" : "header-primary"
+        },
+        "wontWrap" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hasNoMargin" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : "Main",
+      "definition" : {
+        "id" : "1f6e0643eca7a637e36bd7833549ec9e",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isNonDestructive" : false,
+      "styles" : {
+        "color" : "green"
+      }
+    } ],
+    "layout" : {
+      "default" : {
+        "children" : null,
+        "items" : [{"slotName":"Sidebar 1","rules":{"grid-area":"sidebar1"},"styles":{"display":"flex","flex-direction":"column"}},{"slotName":"Main","rules":{"grid-area":"main"},"styles":{"display":"flex","flex-direction":"column","justify-content":"space-evenly","align-items":"center"}}],
+        "root" : null,
+        "rules" : {"grid-template-rows":"auto","grid-template-columns":"4fr 8fr","grid-template-areas":"\"sidebar1 main\"","grid-gap":"1rem","height":"100%"},
+        "styles" : null,
+        "templateId" : "7579b58153071010e6bcddeeff7b1290",
+        "type" : "grid"
+      }
+    }
+  },
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isNonDestructive" : false,
+  "styles" : {
+    "width" : "100%"
+  }
+}, {
+  "elementId" : "avatar_1",
+  "elementLabel" : "Avatar 1",
+  "propertyValues" : {
+    "size" : {
+      "type" : "JSON_LITERAL",
+      "value" : "lg"
+    },
+    "userName" : {
+      "type" : "JSON_LITERAL",
+      "value" : "Job Seeker"
+    },
+    "presence" : {
+      "type" : "JSON_LITERAL",
+      "value" : "available"
+    },
+    "showPresencePattern" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    },
+    "imageSrc" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    },
+    "ariaHidden" : {
+      "type" : "JSON_LITERAL",
+      "value" : "false"
+    },
+    "hideTooltip" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : "Main",
+  "definition" : {
+    "id" : "211969ddfcc5e7050fcfa6cc019e9c8f",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isNonDestructive" : false,
+  "styles" : {
+    "margin-left" : "150px",
+    "margin-bottom" : "50px"
+  }
+}, {
+  "elementId" : "button_1",
+  "elementLabel" : "Button 1",
+  "propertyValues" : {
+    "variant" : {
+      "type" : "JSON_LITERAL",
+      "value" : "secondary"
+    },
+    "size" : {
+      "type" : "JSON_LITERAL",
+      "value" : "md"
+    },
+    "label" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "message" : "Button",
+        "comment" : ""
+      }
+    },
+    "icon" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    },
+    "disabled" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "tooltipContent" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "message" : "Enter a label",
+        "comment" : ""
+      }
+    },
+    "configAria" : {
+      "type" : "MAP_CONTAINER",
+      "container" : { }
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : "Main",
+  "definition" : {
+    "id" : "d37ce8abca89d02905fed903c8e34d8e",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isNonDestructive" : false,
+  "styles" : { }
+}, {
+  "elementId" : "avatar_3",
+  "elementLabel" : "Avatar 3",
+  "propertyValues" : {
+    "size" : {
+      "type" : "JSON_LITERAL",
+      "value" : "lg"
+    },
+    "userName" : {
+      "type" : "JSON_LITERAL",
+      "value" : "Volunteer"
+    },
+    "presence" : {
+      "type" : "JSON_LITERAL",
+      "value" : "available"
+    },
+    "showPresencePattern" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "imageSrc" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    },
+    "ariaHidden" : {
+      "type" : "JSON_LITERAL",
+      "value" : "true"
+    },
+    "hideTooltip" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : "Main",
+  "definition" : {
+    "id" : "211969ddfcc5e7050fcfa6cc019e9c8f",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isNonDestructive" : false,
+  "styles" : {
+    "margin-left" : "150px",
+    "margin-bottom" : "50px"
+  }
+}, {
+  "elementId" : "avatar_2",
+  "elementLabel" : "Avatar 2",
+  "propertyValues" : {
+    "size" : {
+      "type" : "JSON_LITERAL",
+      "value" : "lg"
+    },
+    "userName" : {
+      "type" : "JSON_LITERAL",
+      "value" : "Job Provider"
+    },
+    "presence" : {
+      "type" : "JSON_LITERAL",
+      "value" : "available"
+    },
+    "showPresencePattern" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "imageSrc" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    },
+    "ariaHidden" : {
+      "type" : "JSON_LITERAL",
+      "value" : "false"
+    },
+    "hideTooltip" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : "Main",
+  "definition" : {
+    "id" : "211969ddfcc5e7050fcfa6cc019e9c8f",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isNonDestructive" : false,
+  "styles" : {
+    "margin-left" : "150px",
+    "margin-bottom" : "50px"
+  }
+}, {
+  "elementId" : "container_2",
+  "elementLabel" : "Container 2",
+  "propertyValues" : { },
+  "eventMappings" : [ ],
+  "slot" : "Main",
+  "definition" : {
+    "id" : "d356d14b6e293a3020a244b63d278d8f",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ ],
+    "layout" : {
+      "default" : {
+        "children" : null,
+        "items" : [{"slotName":"Main","rules":{"grid-area":"main"},"styles":{"display":"flex","flex-direction":"column"}}],
+        "root" : null,
+        "rules" : {"grid-template-rows":"auto","grid-template-columns":"1fr","grid-template-areas":"\"main\"","grid-gap":"1rem","height":"100%"},
+        "styles" : null,
+        "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+        "type" : "grid"
+      }
+    }
+  },
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isNonDestructive" : false,
+  "styles" : {
+    "width" : "100%"
+  }
+} ]</composition>
+        <da_relay_models/>
+        <data>[ ]</data>
+        <dispatched_events/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{ }</internal_event_mappings>
+        <layout>{
+  "default" : {
+    "children" : null,
+    "items" : [{"slotName":"Main","rules":{"grid-area":"main"},"styles":{"display":"flex","flex-direction":"column"}}],
+    "root" : null,
+    "rules" : {"grid-template-rows":"minmax(400px,auto)","grid-template-columns":"1fr","grid-template-areas":"\"main\"","grid-gap":"1rem","height":"100%"},
+    "styles" : null,
+    "templateId" : "28bde4cd53431010e6bcddeeff7b12cc",
+    "type" : "grid"
+  }
+}</layout>
+        <macroponent_dependencies/>
+        <name>Homepage</name>
+        <props>[ ]</props>
+        <required_translations>[{"message":"Button","comment":""},{"message":"HELPING HANDS","comment":""},{"message":"Enter a label","comment":""}]</required_translations>
+        <root_component/>
+        <root_component_config>{ }</root_component_config>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties>[ ]</state_properties>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-15 13:16:25</sys_created_on>
+        <sys_id>6f4c38c52f3030107e7055f62799b604</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Homepage</sys_name>
+        <sys_package display_value="Helping Hands" source="x_565960_helping_h">af0630e42f2030107e7055f62799b60d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Helping Hands">af0630e42f2030107e7055f62799b60d</sys_scope>
+        <sys_update_name>sys_ux_macroponent_6f4c38c52f3030107e7055f62799b604</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-15 13:47:13</sys_updated_on>
+    </sys_ux_macroponent>
+</record_update>

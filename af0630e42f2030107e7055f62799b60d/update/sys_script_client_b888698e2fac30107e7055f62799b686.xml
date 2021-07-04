@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>InfoMessage in Job Seeker table</description>
+        <field>active</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>HH AddInfoMessage</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+    g_form.addInfoMessage("Hello "+ g_user.getFullName()+" Please Fill All the details Carefully");
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-06 08:48:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b888698e2fac30107e7055f62799b686</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HH AddInfoMessage</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Helping Hands" source="x_565960_helping_h">af0630e42f2030107e7055f62799b60d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Helping Hands">af0630e42f2030107e7055f62799b60d</sys_scope>
+        <sys_update_name>sys_script_client_b888698e2fac30107e7055f62799b686</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-06 08:48:57</sys_updated_on>
+        <table>x_565960_helping_h_job_seeker</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

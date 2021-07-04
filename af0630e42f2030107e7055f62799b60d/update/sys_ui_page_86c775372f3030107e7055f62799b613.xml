@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script><![CDATA[function saveValues(){
+
+      var accept = document.getElementById("accept").value;
+	
+	alert('Confirm Submission');
+	  var test = new GlideRecord('x_565960_helping_h_job_seeker');
+
+      //test.initialize();
+
+      test.setValue('accept',accept);
+      
+
+      //test.insert();
+
+      test.update();
+
+      }]]></client_script>
+        <description/>
+        <direct>true</direct>
+        <endpoint>x_565960_helping_h_Feedback.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	<style>
+		.main {
+		background-image: url(f1.jpg);
+		background-size: 50% 100%;
+        background-repeat: no-repeat;
+		width:100%;
+		height:800px;
+		margin:0px;
+	}
+		.main label {
+		margin-left:500px;
+		font-size:20px;
+		font-weight:250px;
+		margin-left:1000px;
+		margin-bottom:0px;
+		margin-top:0px;
+	}
+	.main input{
+		width:600px;
+		height:30px;
+		margin-left:1000px;
+		margin-bottom:15px;
+		margin-top:0px;
+		
+	}
+	.main h1 {
+		color:#b30000;
+		font-family:"Playfair Display", serif;
+		font-weight: 800;
+		font-size:45px;
+		padding:50px;
+		padding-left:1000px;
+		
+	}
+	#accept {
+		width:150px;
+		height:30px;
+		margin-left:20px;
+		}
+	#sugg{
+		width:450px;
+		height:100px;
+		}
+	.main button {
+		margin-left:1200px;
+		width:200px;
+		margin-bottom:50px;
+		color:grey:
+		background-color:grey;
+		
+	}
+
+	</style>
+	
+	<body>
+	<div class="main">
+	<h1>Feedback Form</h1>
+		<label>Would you like to accept the job ?</label>
+		<select  id="accept">
+		<option value="yes">yes</option>
+		<option value="no">no</option>
+		</select><br/><br/>
+		<label>Give Suggestions</label>
+		<br/>
+		<input type="text" id="sugg"></input>
+		<h1>THANK YOU</h1>
+		
+		<g:dialog_button onclick="saveValues()" type="button" class="btn">Submit</g:dialog_button>
+		<a href="x_565960_helping_h_Homepage.do" style="margin-left:1000px; margin-bottom:50px;">Go Back to Homepage...</a>
+		</div>
+	</body>
+
+</j:jelly>]]></html>
+        <name>Feedback</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-24 06:40:20</sys_created_on>
+        <sys_id>86c775372f3030107e7055f62799b613</sys_id>
+        <sys_mod_count>59</sys_mod_count>
+        <sys_name>Feedback</sys_name>
+        <sys_package display_value="Helping Hands" source="x_565960_helping_h">af0630e42f2030107e7055f62799b60d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Helping Hands">af0630e42f2030107e7055f62799b60d</sys_scope>
+        <sys_update_name>sys_ui_page_86c775372f3030107e7055f62799b613</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-28 07:51:40</sys_updated_on>
+    </sys_ui_page>
+</record_update>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_565960_helping_h.volunteers</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix>x_565960_helping_h.volunteers</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-01 13:19:22</sys_created_on>
+        <sys_id>62b6b0682f2030107e7055f62799b61d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_565960_helping_h.volunteers</sys_name>
+        <sys_package display_value="Helping Hands" source="x_565960_helping_h">af0630e42f2030107e7055f62799b60d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Helping Hands">af0630e42f2030107e7055f62799b60d</sys_scope>
+        <sys_update_name>sys_user_role_62b6b0682f2030107e7055f62799b61d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-01 13:19:22</sys_updated_on>
+    </sys_user_role>
+</record_update>

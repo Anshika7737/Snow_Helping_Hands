@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script><![CDATA[function saveValues(){
+
+      var fname = document.getElementById("fname").value;
+	  var fathername = document.getElementById("fathername").value;
+		var number = document.getElementById("number").value;
+		var email = document.getElementById("email").value;
+		var address = document.getElementById("address").value;
+		var gender = document.getElementById("gender").value;
+		var identityproof = document.getElementById("identityproof").value;
+		var attachidproof = document.getElementById("attachidproof").value;
+		var worktype = document.getElementById("worktype").value;
+		var description = document.getElementById("description").value;
+		var doj = document.getElementById("doj").value;
+	
+	alert('Confirm Submission');
+     
+
+      var test = new GlideRecord('x_565960_helping_h_service_requester');
+
+      //test.initialize();
+
+      test.setValue('firstname',fname);
+      test.setValue('fathername',fathername);
+		test.setValue('contactnumber',number);
+		test.setValue('email',email);
+		test.setValue('address',address);
+		test.setValue('gender',gender);
+		test.setValue('identityproof',identityproof);
+		test.setValue('attachidproof',attachidproof);
+		test.setValue('worktype',worktype);
+		test.setValue('description',description);
+		test.setValue('doj',doj);
+	
+
+      //test.insert();
+
+      test.update();
+
+      }]]></client_script>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_565960_helping_h_Service_Requester_page.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+<style>
+	.main {
+		background-image: url(service_form.jpg);
+		background-size: 54% 100%;
+        background-repeat: no-repeat;
+		width:100%;
+		height:1000px;
+	}
+	.main h1 {
+		color:#b30000;
+		font-family:"Playfair Display", serif;
+		font-weight: 800;
+		font-size:45px;
+		padding:50px;
+		padding-left:1000px;
+		
+	}
+	.main label {
+		margin-left:500px;
+		font-size:20px;
+		font-weight:250px;
+		margin-left:1000px;
+		margin-bottom:0px;
+		margin-top:0px;
+	}
+	.main input{
+		width:600px;
+		height:30px;
+		margin-left:1000px;
+		margin-bottom:15px;
+		margin-top:0px;
+		
+	}
+	.main button {
+		margin-left:1200px;
+		width:200px;
+		margin-bottom:50px;
+		color:grey:
+		background-color:grey;
+		
+	}
+	#gender {
+		margin-left:1200px;
+		width:220px;
+		height:30px;
+		margin-bottom:20px;
+	}
+	#identityproof {
+		margin-left:1200px;
+		width:220px;
+		height:30px;
+		margin-bottom:10px;
+	}
+	#worktype {
+		margin-left:1200px;
+		width:220px;
+		height:30px;
+	}
+</style>
+<body>
+<div class="main">
+	<h1>Service Requester Registration</h1>
+	 <g:ui_form>  
+	<label>Username</label>
+	<input type="text" id="fname" required="required"></input>
+	<label>Father's Name</label>
+	<input type="text" id="fathername"></input>
+	<label>Contact Number</label>
+	<input type="number" id="number"></input>
+	<label>Email</label>
+    <input type="email" id="email" required="required"></input>
+	<label>Address</label>
+	<input type="text" id="address" style="height:60px;"></input>
+	<label>Gender</label>
+	<select  id="gender">
+    <option value="male">Male</option>
+    <option value="female">Female</option>
+    <option value="others">Others</option>
+	</select>
+	<label>Identity Proof</label>
+	<select  id="identityproof">
+    <option value="aadharcard">Aadhar Card</option>
+    <option value="pancard">Pan Card</option>
+    <option value="drivinglicense">Driving License</option>
+	<option value="voterid">Voter ID</option>
+	</select>
+		 <label>Attach ID Proof</label>
+		 <input type="file" id="attachidproof"></input>
+		 <label>Select Work Type</label>
+	<select  id="worktype" required="required">
+    <option value="industrial work">Industrial Work</option>
+    <option value="construction work">Construction Work</option>
+    <option value="housekeeping work">Housekeeping Work</option>
+	<option value="shopkeeping work">Shopkeeping Work</option>
+	</select>
+		 <label>Explain your work in detail : </label>
+		 <input type="text" id="description" style="height:60px;"></input>
+		 <label>DOJ</label>
+		 <input type="date" id="doj" style="height:60px;"></input>
+	
+	
+	<g:dialog_button onclick="saveValues()" type="button" class="btn">Submit</g:dialog_button>
+	</g:ui_form>  
+	<a href="x_565960_helping_h_Homepage.do" style="margin-left:1000px; margin-bottom:50px;">Go Back to Homepage...</a>
+</div>
+</body>
+
+
+            
+      
+
+
+</j:jelly>]]></html>
+        <name>Service_Requester_page</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-20 13:08:33</sys_created_on>
+        <sys_id>4c4a2ae62fbc30107e7055f62799b640</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Service_Requester_page</sys_name>
+        <sys_package display_value="Helping Hands" source="x_565960_helping_h">af0630e42f2030107e7055f62799b60d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Helping Hands">af0630e42f2030107e7055f62799b60d</sys_scope>
+        <sys_update_name>sys_ui_page_4c4a2ae62fbc30107e7055f62799b640</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-28 06:30:24</sys_updated_on>
+    </sys_ui_page>
+</record_update>

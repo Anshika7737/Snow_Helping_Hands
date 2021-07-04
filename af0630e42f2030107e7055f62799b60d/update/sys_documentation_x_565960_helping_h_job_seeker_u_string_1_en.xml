@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_string_1" label="Accepted" language="en" table="x_565960_helping_h_job_seeker">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_string_1</element>
+            <help/>
+            <hint/>
+            <label>Accepted</label>
+            <language>en</language>
+            <name>x_565960_helping_h_job_seeker</name>
+            <plural>Accepted</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-21 12:04:03</sys_created_on>
+            <sys_id>4e45efb22f3c70107e7055f62799b641</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Accepted</sys_name>
+            <sys_package display_value="Helping Hands" source="x_565960_helping_h">af0630e42f2030107e7055f62799b60d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Helping Hands">af0630e42f2030107e7055f62799b60d</sys_scope>
+            <sys_update_name>sys_documentation_x_565960_helping_h_job_seeker_u_string_1_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-28 06:35:05</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

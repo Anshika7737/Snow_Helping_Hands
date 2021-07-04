@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Job Seeker" max_length="40" name="x_565960_helping_h_job_seeker" sizeclass="5" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="accept" max_length="40" name="accept" type="string">
+            <choice>
+                <element inactive_on_update="false" label="yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="no" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Address" max_length="40" name="address" type="string"/>
+        <element label="Attach ID Proof" max_length="40" name="attachidproof" type="file_attachment"/>
+        <element label="Contact Number" max_length="40" name="contactnumber" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Date of Birth" max_length="40" name="dateofbirth" type="calendar_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Email" mandatory="true" max_length="40" name="email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Father's Name" max_length="40" name="fathername" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Username" mandatory="true" max_length="40" name="firstname" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Gender" max_length="40" name="gender" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Male" sequence="0" value="male"/>
+                <element inactive_on_update="false" label="Female" sequence="1" value="female"/>
+                <element inactive_on_update="false" label="Others" sequence="2" value="others"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Identity Proof" max_length="40" name="identityproof" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Aadhar Card" sequence="0" value="aadhar card"/>
+                <element inactive_on_update="false" label="PAN Card" sequence="1" value="pan card"/>
+                <element inactive_on_update="false" label="Driving License" sequence="2" value="driving license"/>
+                <element inactive_on_update="false" label="Voter ID" sequence="3" value="voter id"/>
+            </choice>
+        </element>
+        <element label="Job Assigned" max_length="40" name="id_number" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Job Assigned" max_length="40" name="job_assigned" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Last Name" mandatory="true" max_length="40" name="lastname" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Enroll any special skill that you have" max_length="40" name="skill" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Sr_address" max_length="40" name="sr_address" type="string"/>
+        <element label="Sr_contact" max_length="40" name="sr_contact" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Sr_email" max_length="40" name="sr_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="sr_doj" max_length="40" name="u_glide_date_4" type="glide_date"/>
+        <element label="New Integer" max_length="40" name="u_integer_7" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="no" label="Accepted" max_length="40" name="u_string_1" type="string">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="Yes" sequence="0" value="yes"/>
+                <element inactive="true" inactive_on_update="true" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Select Work Type" mandatory="true" max_length="40" name="worktype" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Industrial Work" sequence="0" value="Industrial Work"/>
+                <element inactive="true" inactive_on_update="true" label="Industrial Work (Food" sequence="0" value="Industrial Work (Food"/>
+                <element inactive_on_update="false" label="Shopkeeping Work" sequence="1" value="Shopkeeping Work"/>
+                <element inactive="true" inactive_on_update="true" label="Shopkeeping Work (Accountant" sequence="1" value="Shopkeeping Work (Accountant"/>
+                <element inactive_on_update="false" label="Housekeeping Work" sequence="2" value="Housekeeping Work"/>
+                <element inactive="true" inactive_on_update="true" label="Housekeeping Work (Sweeper" sequence="2" value="Housekeeping Work (Sweeper"/>
+                <element inactive_on_update="false" label="Construction Work" sequence="3" value="Construction Work"/>
+                <element inactive="true" inactive_on_update="true" label="Construction Work (Building" sequence="3" value="Construction Work (Building"/>
+            </choice>
+        </element>
+    </element>
+</database>

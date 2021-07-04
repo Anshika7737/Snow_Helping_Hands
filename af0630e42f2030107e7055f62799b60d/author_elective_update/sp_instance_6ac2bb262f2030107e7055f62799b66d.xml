@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">cdb277662f2030107e7055f62799b6d4</sp_column>
+        <sp_widget display_value="Job Incident">7beeef262f2030107e7055f62799b62e</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-08 08:08:53</sys_created_on>
+        <sys_id>6ac2bb262f2030107e7055f62799b66d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Helping Hands" source="x_565960_helping_h">af0630e42f2030107e7055f62799b60d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Helping Hands">af0630e42f2030107e7055f62799b60d</sys_scope>
+        <sys_update_name>sp_instance_6ac2bb262f2030107e7055f62799b66d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-08 08:08:53</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=6ac2bb262f2030107e7055f62799b66d"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Helping Hands">af0630e42f2030107e7055f62799b60d</application>
+        <file_path/>
+        <instance_id>36771bfedb4d3fc48aea21c405961961</instance_id>
+        <instance_name>dev84449</instance_name>
+        <name>sp_instance_6ac2bb262f2030107e7055f62799b66d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="1">cdb277662f2030107e7055f62799b6d4</sp_column><sp_widget display_value="Job Incident">7beeef262f2030107e7055f62799b62e</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-06-08 08:08:53</sys_created_on><sys_id>6ac2bb262f2030107e7055f62799b66d</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Helping Hands" source="x_565960_helping_h">af0630e42f2030107e7055f62799b60d</sys_package><sys_policy/><sys_scope display_value="Helping Hands">af0630e42f2030107e7055f62799b60d</sys_scope><sys_update_name>sp_instance_6ac2bb262f2030107e7055f62799b66d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-06-08 08:08:53</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=6ac2bb262f2030107e7055f62799b66d"/></record_update>]]></payload>
+        <payload_hash>-1501688862</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>b30630e42f2030107e7055f62799b610</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-08 08:08:53</sys_created_on>
+        <sys_id>a2c23be62f2030107e7055f62799b6c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179eaaace590000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-08 08:08:53</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>eac23be657203010ba4ab975742811c8</update_guid>
+        <update_guid_history>eac23be657203010ba4ab975742811c8:-1501688862</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">1453fbe62f2030107e7055f62799b64e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-08 08:11:11</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>4cf8d0b7e88c4e089e8ded5b8107c240</sys_id>
+        <sys_metadata>6ac2bb262f2030107e7055f62799b66d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Helping Hands" source="x_565960_helping_h">af0630e42f2030107e7055f62799b60d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Helping Hands">af0630e42f2030107e7055f62799b60d</sys_scope>
+        <sys_scope_delete display_value="">3fa4dbdbf82d43929af5672b748aeac4</sys_scope_delete>
+        <sys_update_name>sp_instance_6ac2bb262f2030107e7055f62799b66d</sys_update_name>
+        <sys_update_version display_value="sp_instance_6ac2bb262f2030107e7055f62799b66d">a2c23be62f2030107e7055f62799b6c9</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-08 08:11:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

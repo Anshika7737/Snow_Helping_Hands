@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>false</disabled>
+        <field>attachidproof</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-06 15:16:03</sys_created_on>
+        <sys_id>b141830e2fa070107e7055f62799b6bc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>attachidproof</sys_name>
+        <sys_package display_value="Helping Hands" source="x_565960_helping_h">af0630e42f2030107e7055f62799b60d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Helping Hands">af0630e42f2030107e7055f62799b60d</sys_scope>
+        <sys_update_name>sys_ui_policy_action_b141830e2fa070107e7055f62799b6bc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 04:18:25</sys_updated_on>
+        <table>x_565960_helping_h_job_seeker</table>
+        <ui_policy display_value="Hide Attach ID  ">e2714e022f2070107e7055f62799b606</ui_policy>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Helping Hands">af0630e42f2030107e7055f62799b60d</application>
+        <file_path/>
+        <instance_id>36771bfedb4d3fc48aea21c405961961</instance_id>
+        <instance_name>dev84449</instance_name>
+        <name>sys_ui_policy_action_b141830e2fa070107e7055f62799b6bc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>false</disabled><field>attachidproof</field><mandatory>true</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-06-06 15:16:03</sys_created_on><sys_id>b141830e2fa070107e7055f62799b6bc</sys_id><sys_mod_count>1</sys_mod_count><sys_name>attachidproof</sys_name><sys_package display_value="Helping Hands" source="x_565960_helping_h">af0630e42f2030107e7055f62799b60d</sys_package><sys_policy/><sys_scope display_value="Helping Hands">af0630e42f2030107e7055f62799b60d</sys_scope><sys_update_name>sys_ui_policy_action_b141830e2fa070107e7055f62799b6bc</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-06-07 04:18:25</sys_updated_on><table>x_565960_helping_h_job_seeker</table><ui_policy display_value="Hide Attach ID  ">e2714e022f2070107e7055f62799b606</ui_policy><visible>false</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>1707169269</payload_hash>
+        <record_name>attachidproof</record_name>
+        <reverted_from/>
+        <source>b30630e42f2030107e7055f62799b610</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 04:18:25</sys_created_on>
+        <sys_id>fc7431922fa870107e7055f62799b675</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179e4b173700000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 04:18:25</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>b4747512eea8701000f0981dbc116602</update_guid>
+        <update_guid_history>b4747512eea8701000f0981dbc116602:1707169269,d461c30e84a07010177fd0e335f9438c:-1071085556</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-08 09:00:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>9b87d80de7c9469dac6023ce58d81331</sys_id>
+        <sys_metadata>b141830e2fa070107e7055f62799b6bc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>attachidproof</sys_name>
+        <sys_package display_value="Helping Hands" source="x_565960_helping_h">af0630e42f2030107e7055f62799b60d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Helping Hands">af0630e42f2030107e7055f62799b60d</sys_scope>
+        <sys_scope_delete display_value="">3fa4dbdbf82d43929af5672b748aeac4</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_b141830e2fa070107e7055f62799b6bc</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_b141830e2fa070107e7055f62799b6bc">fc7431922fa870107e7055f62799b675</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-08 09:00:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

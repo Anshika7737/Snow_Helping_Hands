@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_email_template">
+    <sysevent_email_template action="DELETE">
+        <collection>x_565960_helping_h_job_seeker</collection>
+        <email_layout/>
+        <message/>
+        <message_html/>
+        <message_list/>
+        <message_text><![CDATA[Thanks, for registering yourself.
+
+]]></message_text>
+        <name>Registration</name>
+        <sms_alternate/>
+        <subject>User Registered Successfully.</subject>
+        <sys_class_name>sysevent_email_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-02 09:08:56</sys_created_on>
+        <sys_id>8cb689782f6030107e7055f62799b639</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Registration</sys_name>
+        <sys_package display_value="Helping Hands" source="x_565960_helping_h">af0630e42f2030107e7055f62799b60d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Helping Hands">af0630e42f2030107e7055f62799b60d</sys_scope>
+        <sys_update_name>sysevent_email_template_8cb689782f6030107e7055f62799b639</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-17 13:53:35</sys_updated_on>
+        <sys_version>2</sys_version>
+    </sysevent_email_template>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Helping Hands">af0630e42f2030107e7055f62799b60d</application>
+        <file_path/>
+        <instance_id>36771bfedb4d3fc48aea21c405961961</instance_id>
+        <instance_name>dev84449</instance_name>
+        <name>sysevent_email_template_8cb689782f6030107e7055f62799b639</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sysevent_email_template"&gt;&lt;sysevent_email_template action="INSERT_OR_UPDATE"&gt;&lt;collection&gt;x_565960_helping_h_job_seeker&lt;/collection&gt;&lt;email_layout/&gt;&lt;message/&gt;&lt;message_html/&gt;&lt;message_list/&gt;&lt;message_text&gt;&lt;![CDATA[Thanks, for registering yourself.
+
+]]&gt;&lt;/message_text&gt;&lt;name&gt;Registration&lt;/name&gt;&lt;sms_alternate/&gt;&lt;subject&gt;User Registered Successfully.&lt;/subject&gt;&lt;sys_class_name&gt;sysevent_email_template&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-06-02 09:08:56&lt;/sys_created_on&gt;&lt;sys_id&gt;8cb689782f6030107e7055f62799b639&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Registration&lt;/sys_name&gt;&lt;sys_package display_value="Helping Hands" source="x_565960_helping_h"&gt;af0630e42f2030107e7055f62799b60d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Helping Hands"&gt;af0630e42f2030107e7055f62799b60d&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysevent_email_template_8cb689782f6030107e7055f62799b639&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-06-17 13:53:35&lt;/sys_updated_on&gt;&lt;sys_version&gt;2&lt;/sys_version&gt;&lt;/sysevent_email_template&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>448115253</payload_hash>
+        <record_name>Registration</record_name>
+        <reverted_from/>
+        <source>b30630e42f2030107e7055f62799b610</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-17 13:53:36</sys_created_on>
+        <sys_id>3ff753292f3030107e7055f62799b634</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a1a3fa3060000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-17 13:53:36</sys_updated_on>
+        <type>Email Template</type>
+        <update_guid>b7f753294030301090a13cb720742b34</update_guid>
+        <update_guid_history>b7f753294030301090a13cb720742b34:448115253,1397d7e5983030107d0c6ceed5d1f434:-1749003532,27f68d78226030102bdc0cdcf65eeedc:-126918289</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-17 14:14:11</sys_created_on>
+        <sys_db_object display_value="" name="sysevent_email_template">sysevent_email_template</sys_db_object>
+        <sys_id>dc2006e406144078bcbd64a6e4d2df90</sys_id>
+        <sys_metadata>8cb689782f6030107e7055f62799b639</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Registration</sys_name>
+        <sys_package display_value="Helping Hands" source="x_565960_helping_h">af0630e42f2030107e7055f62799b60d</sys_package>
+        <sys_parent display_value="Job Seeker">9e47f4682f2030107e7055f62799b6b7</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Helping Hands">af0630e42f2030107e7055f62799b60d</sys_scope>
+        <sys_scope_delete display_value="">3fa4dbdbf82d43929af5672b748aeac4</sys_scope_delete>
+        <sys_update_name>sysevent_email_template_8cb689782f6030107e7055f62799b639</sys_update_name>
+        <sys_update_version display_value="sysevent_email_template_8cb689782f6030107e7055f62799b639">3ff753292f3030107e7055f62799b634</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-17 14:14:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

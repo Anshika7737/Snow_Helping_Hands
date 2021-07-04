@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Volunteer" max_length="40" name="x_565960_helping_h_volunteer" sizeclass="4" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="First Name" mandatory="true" max_length="40" name="firstname" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Gender" mandatory="true" max_length="40" name="gender" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Male" sequence="0" value="male"/>
+                <element inactive_on_update="false" label="Female" sequence="1" value="female"/>
+                <element inactive_on_update="false" label="Others" sequence="2" value="others"/>
+            </choice>
+        </element>
+        <element label="ID Number" max_length="40" name="id_number" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Last Name" mandatory="true" max_length="40" name="lastname" type="string"/>
+    </element>
+</database>

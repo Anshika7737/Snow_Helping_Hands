@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="DELETE">
+        <active>true</active>
+        <conditions table="x_565960_helping_h_job_seeker">identityproofNOT INvoter id^EQ<item display_value="Voter ID" endquery="false" field="identityproof" goto="false" newquery="false" operator="NOT IN" or="false" value="voter id"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>false</run_scripts>
+        <script_false><![CDATA[function onCondition()
+{
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+	g_form.setDisplay('attach_id_proof', false);
+}]]></script_true>
+        <set_values/>
+        <short_description>Hide Attach ID  </short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-06 10:54:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e2714e022f2070107e7055f62799b606</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Hide Attach ID  </sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Helping Hands" source="x_565960_helping_h">af0630e42f2030107e7055f62799b60d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Helping Hands">af0630e42f2030107e7055f62799b60d</sys_scope>
+        <sys_update_name>sys_ui_policy_e2714e022f2070107e7055f62799b606</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 14:06:34</sys_updated_on>
+        <table>x_565960_helping_h_job_seeker</table>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_ui_policy>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Helping Hands">af0630e42f2030107e7055f62799b60d</application>
+        <file_path/>
+        <instance_id>36771bfedb4d3fc48aea21c405961961</instance_id>
+        <instance_name>dev84449</instance_name>
+        <name>sys_ui_policy_e2714e022f2070107e7055f62799b606</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;conditions table="x_565960_helping_h_job_seeker"&gt;identityproofNOT INvoter id^EQ&lt;item display_value="Voter ID" endquery="false" field="identityproof" goto="false" newquery="false" operator="NOT IN" or="false" value="voter id"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/conditions&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition()
+{
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+	g_form.setDisplay('attach_id_proof', false);
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;Hide Attach ID  &lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-06-06 10:54:43&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;e2714e022f2070107e7055f62799b606&lt;/sys_id&gt;&lt;sys_mod_count&gt;10&lt;/sys_mod_count&gt;&lt;sys_name&gt;Hide Attach ID  &lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Helping Hands" source="x_565960_helping_h"&gt;af0630e42f2030107e7055f62799b60d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Helping Hands"&gt;af0630e42f2030107e7055f62799b60d&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_e2714e022f2070107e7055f62799b606&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-06-07 14:06:34&lt;/sys_updated_on&gt;&lt;table&gt;x_565960_helping_h_job_seeker&lt;/table&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_ui_policy&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1645620182</payload_hash>
+        <record_name>Hide Attach ID  </record_name>
+        <reverted_from/>
+        <source>b30630e42f2030107e7055f62799b610</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 14:06:34</sys_created_on>
+        <sys_id>941bbb162f2030107e7055f62799b696</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179e6cbebd40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 14:06:34</sys_updated_on>
+        <type>UI Policy</type>
+        <update_guid>101bbb16552030102465c38741eacb96</update_guid>
+        <update_guid_history>101bbb16552030102465c38741eacb96:-1645620182,7a73b512dba870106283704e57e678fc:-258762961,499279120ca8701052e6ee7ec3d954d0:-1660002454,897143caf4a0701091b3960818ce478b:-301594465,97c9ca869b2070105afc42585b3a06bb:324132208,e85986862d2070105f0cb70ba3bb1c4c:1177903934,35c88246a520701065f5219c5193a54e:1047518974,e9874e06cf20701065a5b744d8c52eac:-987359316,6e170206c2207010af61e1de727ab683:-196140308,e5c6cac29a2070101eecec61d5df34e8:-59454010,cc95c6c23e2070105a6b29b63e306fd8:1818958060</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-08 09:00:08</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy">sys_ui_policy</sys_db_object>
+        <sys_id>746850cadb4b4ab0876780d31a320840</sys_id>
+        <sys_metadata>e2714e022f2070107e7055f62799b606</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hide Attach ID  </sys_name>
+        <sys_package display_value="Helping Hands" source="x_565960_helping_h">af0630e42f2030107e7055f62799b60d</sys_package>
+        <sys_parent display_value="Job Seeker">9e47f4682f2030107e7055f62799b6b7</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Helping Hands">af0630e42f2030107e7055f62799b60d</sys_scope>
+        <sys_scope_delete display_value="">3fa4dbdbf82d43929af5672b748aeac4</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_e2714e022f2070107e7055f62799b606</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_e2714e022f2070107e7055f62799b606">941bbb162f2030107e7055f62799b696</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-08 09:00:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
